@@ -1,4 +1,4 @@
-name: YTC New Method
+name: Getscreen new
 
 on:
   workflow_dispatch:
@@ -8,342 +8,125 @@ jobs:
     name: Start Building 1...
     runs-on: windows-latest
     timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 14600
 
   build2:
     name: Start Building 2...
     runs-on: windows-latest
     timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 14600
         
   build3:
     name: Start Building 3...
     runs-on: windows-latest
     timeout-minutes: 9999
     
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 14600
         
   build4:
     name: Start Building 4...
     runs-on: windows-latest
     timeout-minutes: 9999
     
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 14600
         
   build5:
     name: Start Building 5...
     runs-on: windows-latest
     timeout-minutes: 9999
     
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 14600
         
   build6:
     name: Start Building 6...
     runs-on: windows-latest
     timeout-minutes: 9999
     
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 14600
         
   build7:
     name: Start Building 7...
     runs-on: windows-latest
     timeout-minutes: 9999
     
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 14600
         
   build8:
     name: Start Building 8...
     runs-on: windows-latest
     timeout-minutes: 9999
     
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
 
-      - name: Start pag
+    steps:
+      - name: Downloading & Setting Up
         run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
+         echo "EMAIL_SECRET=lewanayamina@proton.me" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build9:
-    name: Start Building 9...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build10:
-    name: Start Building 10...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build11:
-    name: Start Building 11...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-
-  build12:
-    name: Start Building 12...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build13:
-    name: Start Building 13...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build14:
-    name: Start Building 14...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build15:
-    name: Start Building 15...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build16:
-    name: Start Building 16...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build17:
-    name: Start Building 17...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
-  build18:
-    name: Start Building 18...
-    runs-on: windows-latest
-    timeout-minutes: 9999
-    
-    steps:
-      - name: Downloading & Installing Essentials
-        run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vf8uwpv07nfy0ruc752d1/Downloads.bat?rlkey=yq1srrcsrcc3hzhvquktteo6n&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
-
-      - name: Start pag
-        run: |
-         ipconfig | findstr "IPv4 Address"
-         cmd /c disalanew.bat
-
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-        
+        run: Start-Sleep -Seconds 14600
         
